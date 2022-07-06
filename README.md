@@ -45,5 +45,5 @@ await collections.LoadItemsTextures("asset");
 
 
 foreach (NFTItem item in collections.GetItems()){
-    // Your Code Logic
-} ```
+    // Your Logic
+} 
