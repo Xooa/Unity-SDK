@@ -33,17 +33,17 @@ Navigate to Assets > Xooa > Example > Example Image Load Scene
 
 ## Code
 ``` 
-            using Xooa;
+using Xooa;
 
 
-            RequestFilters filters = new RequestFilters();
-            filters.AddFilter("type", "ERC-721 Token", "eq");
-            NFTItemsCollection collections = await XooaNFTRequest.BuildRequest().AddRequestFilters(filters).SetLimit(100).Execute();
-
-          
-            await collections.LoadItemsTextures("asset");
+RequestFilters filters = new RequestFilters();
+filters.AddFilter("type", "ERC-721 Token", "eq");
+NFTItemsCollection collections = await XooaNFTRequest.BuildRequest().AddRequestFilters(filters).SetLimit(100).Execute();
 
 
-            foreach (NFTItem item in collections.GetItems()){
-                // Your Code Logic
-            } ```
+await collections.LoadItemsTextures("asset");
+
+
+foreach (NFTItem item in collections.GetItems()){
+    // Your Code Logic
+} ```
