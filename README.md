@@ -31,3 +31,19 @@ Navigate to Assets > Xooa > Example > Example Image Load Scene
 
 ![Screenshot3](./Screenshots/Screenshot3.png)
 
+## Code
+``` 
+            using Xooa;
+
+
+            RequestFilters filters = new RequestFilters();
+            filters.AddFilter("type", "ERC-721 Token", "eq");
+            NFTItemsCollection collections = await XooaNFTRequest.BuildRequest().AddRequestFilters(filters).SetLimit(100).Execute();
+
+          
+            await collections.LoadItemsTextures("asset");
+
+
+            foreach (NFTItem item in collections.GetItems()){
+                // Your Code Logic
+            } ```
