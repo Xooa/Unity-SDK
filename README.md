@@ -45,5 +45,9 @@ await collections.LoadItemsTextures("asset");
 
 
 foreach (NFTItem item in collections.GetItems()){
-    // Your Logic
+    var name = item.GetPropertyKeyValue("name");
+    var description =item.GetPropertyKeyValue("description");
+    var tokenId = item.GetKeyValue("token_id");
+    
+    // Your Logic...
 } 
