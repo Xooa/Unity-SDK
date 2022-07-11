@@ -33,10 +33,7 @@ Click Create. You’ll get a message that the identity has been enrolled and the
 
 Before you dismiss the message, click Copy, The token is now in the clipboard.
 
-## Example Scenes
-
-Navigate to Assets > Xooa > Example > Example Image Load Scene
-
+## Steps to import Xooa SDK in Unity Project
 
 ![Screenshot1](./Screenshots/Screenshot1.png)
 
@@ -44,7 +41,7 @@ Navigate to Assets > Xooa > Example > Example Image Load Scene
 
 ![Screenshot3](./Screenshots/Screenshot3.png)
 
-## Code
+## Integration Code
 ``` 
 using Xooa;
 
@@ -64,3 +61,11 @@ foreach (NFTItem item in collections.GetItems()){
     
     // Your Logic...
 } 
+
+## Examples
+Go to Assets > Xooa > Example folder in Unity project where Xooa SDK is imported.
+
+The examples show case capability to load Xooa NFT Asset (Image and Scriptable Object) in Unity Game.
+
+[Click here](./examples/) to know more about examples
+
