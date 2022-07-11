@@ -18,7 +18,20 @@ Download [XooaSDK.unitypackage](./XooaSDK.unitypackage)
 
     4. Enter Xooa API token in settings wizard
        Authentication token can be obtained from Xooa Design console API Tab.
+       
+## Create API Token
 
+    Login to [Xooa Design Console](https://xooa.com/blockchain)
+    
+    Click on Design button of App from App List section
+    
+    Go to API > Identities and then click Add New
+
+    Enter an identity name and under API Access Permission, select Read.
+
+    Click Create. You’ll get a message that the identity has been enrolled and the API token generated.
+
+    Before you dismiss the message, click Copy, The token is now in the clipboard.
 
 ## Example Scenes
 
