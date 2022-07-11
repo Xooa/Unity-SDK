@@ -60,7 +60,8 @@ foreach (NFTItem item in collections.GetItems()){
     var tokenId = item.GetKeyValue("token_id");
     
     // Your Logic...
-} 
+}
+```
 
 ## Examples
 Go to Assets > Xooa > Example folder in Unity project where Xooa SDK is imported.
