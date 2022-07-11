@@ -21,17 +21,17 @@ Download [XooaSDK.unitypackage](./XooaSDK.unitypackage)
        
 ## Create API Token
 
-    Login to [Xooa Design Console](https://xooa.com/blockchain)
-    
-    Click on Design button of App from App List section
-    
-    Go to API > Identities and then click Add New
+Login to [Xooa Design Console](https://xooa.com/blockchain)
 
-    Enter an identity name and under API Access Permission, select Read.
+Click on Design button of App from App List section
 
-    Click Create. You’ll get a message that the identity has been enrolled and the API token generated.
+Go to API > Identities and then click Add New
 
-    Before you dismiss the message, click Copy, The token is now in the clipboard.
+Enter an identity name and under API Access Permission, select Read.
+
+Click Create. You’ll get a message that the identity has been enrolled and the API token generated.
+
+Before you dismiss the message, click Copy, The token is now in the clipboard.
 
 ## Example Scenes
 
