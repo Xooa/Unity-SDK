@@ -10,14 +10,14 @@ Xooa Unity SDK for integration with Xooa NFT Platform.
 
 Download [XooaSDK.unitypackage](./XooaSDK.unitypackage)
 
-    1. Open Or Create Unity project .
+Open Or Create Unity project .
 
-    2. Click Assets > Import Package > Custom Package... in the Assets menu.
+Click Assets > Import Package > Custom Package... in the Assets menu.
 
-    3. Select downloaded XooaSDK.unitypackage and Import.
+Select downloaded XooaSDK.unitypackage and Import.
 
-    4. Enter Xooa API token in settings wizard
-       Authentication token can be obtained from Xooa Design console API Tab.
+Enter Xooa API token in settings wizard
+   Authentication token can be obtained from Xooa Design console API Tab, follow steps given bellow to generate new API token.
        
 ## Create API Token
 
