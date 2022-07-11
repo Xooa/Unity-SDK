@@ -70,3 +70,4 @@ The examples show case capability to load Xooa NFT Asset (Image and Scriptable O
 
 [Click here](./examples/) to know more
 
+[API Documentation](https://api.xooa.com/explorer/#!/NFT/NFT_GetAllTokens) 
