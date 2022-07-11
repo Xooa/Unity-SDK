@@ -68,6 +68,6 @@ Go to Assets > Xooa > Example folder in Unity project where Xooa SDK is imported
 
 The examples show case capability to load Xooa NFT Asset (Image and Scriptable Object) in Unity Game.
 
-[Click here](./examples/) to know more
+[Click here](./examples/) for detailed documentation about examples.
 
 [API Documentation](https://api.xooa.com/explorer/#!/NFT/NFT_GetAllTokens) 
