@@ -3,7 +3,7 @@
 
 Xooa Unity SDK for integration with Xooa NFT Platform.
 
-
+Xooa Unity SDK provides capability to fetch NFT details and Assets from Xooa NFT platform. The NFT Assets can be used as in game object as Texture, Scriptable Object or Video link.
 
 
 ## Installation
