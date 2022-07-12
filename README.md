@@ -8,7 +8,7 @@ Xooa Unity SDK provides capability to fetch NFT details and Assets from Xooa NFT
 
 ## Installation
 
-Download [XooaSDK.unitypackage](./XooaSDK.unitypackage)
+Download [XooaSDK.unitypackage](./XooaSDK-1.0.0.unitypackage)
 
 Open Or Create Unity project .
 
