@@ -64,7 +64,7 @@ foreach (NFTItem item in collections.GetItems()){
 ```
 
 ## Examples
-Go to Assets > Xooa > Example folder in Unity project where Xooa SDK is imported.
+Go to Assets > Xooa > Examples folder in Unity project where Xooa SDK is imported.
 
 The examples show case capability to load Xooa NFT Asset (Image and Scriptable Object) in Unity Game.
 
