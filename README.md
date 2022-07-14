@@ -1,9 +1,9 @@
 
 # Xooa Unity SDK
 
-Xooa Unity SDK for integration with Xooa NFT Platform.
+Xooa Unity SDK is designed to integrate Xooa NFT Platform with Unity Engine.
 
-Xooa Unity SDK provides capability to fetch NFT details and Assets from Xooa NFT platform. The NFT Assets can be used as in game object as Texture, Scriptable Object or Video link.
+This SDK provides capability to fetch NFT Assets and their details from Xooa NFT platform. The NFT Assets can be used as in-game objects as Texture, Scriptable Object or Video link.
 
 
 ## Installation
@@ -14,24 +14,24 @@ Open Or Create Unity project .
 
 Click Assets > Import Package > Custom Package... in the Assets menu.
 
-Select downloaded XooaSDK.unitypackage and Import.
+Select downloaded **XooaSDK.unitypackage ** and **Import**.
 
-Enter Xooa API token in settings wizard
-   Authentication token can be obtained from Xooa Design console API Tab, follow steps given bellow to generate new API token.
+Enter the Xooa API token in settings wizard. The Authentication token can be obtained from Xooa Design console > API tab. Now follow the steps given below to generate new API token.
        
 ## Create API Token
 
 Login to [Xooa Design Console](https://xooa.com/blockchain)
 
-Click on Design button of App from App List section
+Click on **Design** of the App in  **My Apps** section
 
-Go to API > Identities and then click Add New
+Go to **API > Identities** and then click **Add New**
 
-Enter an identity name and under API Access Permission, select Read.
+Enter an identity name and under **API Access Permission**, select **Read**.
 
-Click Create. You’ll get a message that the identity has been enrolled and the API token generated.
+Click **Create**. You’ll get a message that the identity has been enrolled and the API token is generated.
 
-Before you dismiss the message, click Copy, The token is now in the clipboard.
+Before you dismiss the message, click **Copy**. The API token will be copied 
+to the clipboard..
 
 ## Steps to import Xooa SDK in Unity Project
 
@@ -64,9 +64,9 @@ foreach (NFTItem item in collections.GetItems()){
 ```
 
 ## Examples
-Go to Assets > Xooa > Examples folder in Unity project where Xooa SDK is imported.
+Go to **Assets > Xooa > Examples** folder in Unity project where Xooa SDK is imported.
 
-The examples show case capability to load Xooa NFT Asset (Image and Scriptable Object) in Unity Game.
+The examples show the capability to load Xooa NFT Asset (Image and Scriptable Object) into the Unity Game.
 
 [Click here](./examples/) for detailed documentation about examples.
 
