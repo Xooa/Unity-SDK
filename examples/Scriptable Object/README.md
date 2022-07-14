@@ -1,21 +1,21 @@
 
 # Using Xooa NFT scriptable object Asset
 
-Login to [Xooa Design Console](https://xooa.com/blockchain) and Deploy Platform minted marketplace app from solution templates if App is not deployed yet.
+Login to [Xooa Design Console](https://xooa.com/blockchain) and Deploy Platform minted marketplace app from solution templates, if the app is not deployed yet
 
-Once app is ready, click on Design button, go to Forms tab and click on Import
+Once the app is ready, click Design > Forms > Import
 
-Download sample inventory form [here](./Mint%20Game%20Object.json) then Browse / Drag and drop to file section and click Import.
+Download sample inventory form [here](./Mint%20Game%20Object.json) then browse or drag & drop to file section and click Import
 
-Setup Page action and Roles permissions to Mint Game object
+Setup the Page action and Roles permissions to mint Game object
 
-In Unity Project create Game Object Asset Bundle by clicking on Main Menu > Xooa > Build Asset Bundles, This action will generate Asset bundles in Assets > Xooa > GeneratedAssetBundles folder.
+In Unity Project, create Game Object Asset Bundle by clicking on Main Menu > Xooa > Build Asset Bundles. This action will generate Asset bundles in Assets > Xooa > GeneratedAssetBundles folder
 
-Go to Xooa app runtime console and mint game object with generated asset, refer screenshot below.
+Go to Xooa app runtime console and mint game object with generated asset. Refer to the below screenshot
 
 ![Screenshot4](../../Screenshots/Screenshot4.png)
 
-Open ExampleScriptObjectController file in unity and replace <USER EMAIL> with actual email of user token is minted.
+Open ExampleScriptObjectController file in unity and replace <USER EMAIL> with user's actual email id with which the token was minted
 
 ```
 NFTItemsCollection collections = await XooaNFTRequest.BuildRequest()
@@ -25,4 +25,4 @@ NFTItemsCollection collections = await XooaNFTRequest.BuildRequest()
 
 Run the ExampleScriptObjectScene scene.
 
-Refer to Xooa [API Documentation](https://api.xooa.com/explorer/#!/NFT/NFT_GetAllTokens) for additional fiters.
+Refer to Xooa [API Documentation](https://api.xooa.com/explorer/#!/NFT/NFT_GetAllTokens) for additional filters
