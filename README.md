@@ -33,6 +33,14 @@ Click **Create**. You’ll get a message that the identity has been enrolled and
 Before you dismiss the message, click **Copy**. The API token will be copied 
 to the clipboard..
 
+## Get API Endpoint
+
+Login to [Xooa Design Console](https://xooa.com/blockchain)
+
+Click on **Design** of the App in  **My Apps** section
+
+Go to **API > Sandbox** and then copy the link under **API Endpoint**
+
 ## Steps to import Xooa SDK in Unity Project
 
 ![Screenshot1](./Screenshots/Screenshot1.png)
